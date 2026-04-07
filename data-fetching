@@ -1,0 +1,21 @@
+ 4. .claude/skills/data-fetching/SKILL.md:
+
+  ---
+  name: data-fetching
+  description: Use when implementing data fetching with TanStack Query. Covers query keys,
+  mutations, optimistic updates, and cache invalidation.
+  ---
+
+  # Data Fetching with TanStack Query
+
+  ## When to Use
+  - Adding new API data fetching
+  - Implementing mutations with optimistic updates
+  - Managing query cache invalidation
+
+  ## Instructions
+  1. Query keys follow the pattern: ["resource", id, filters]
+  2. All queries use the shared queryClient from src/lib/query-client.ts
+  3. Mutations must invalidate related queries on success
+  4. Use optimistic updates for user-facing mutations
+  5. Set staleTime to 5 minutes for dashboard data, 0 for user-specific data
