@@ -19,3 +19,6 @@ A data dashboard built with React, TypeScript, and Recharts.
 - All API calls go through TanStack Query
 - Charts use the Recharts library exclusively
 - Test every component with Vitest + Testing Library
+
+## Relay-round-trip note
+Touched 2026-04-20 to validate the TomeVault Relay end-to-end pipeline.
