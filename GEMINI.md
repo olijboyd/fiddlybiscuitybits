@@ -14,5 +14,6 @@ under tomevault-io/ reflect the update.
 - Prefer short, direct answers
 - Ask before making destructive changes
 - Keep explanations terse
+- Do not invent APIs; ask when uncertain
 
 (Dummy file — safe to delete after the relay round-trip is verified.)
